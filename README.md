@@ -1,2 +1,2 @@
 # MSCFNet
-This repo is the official implementation of "MSCFNet：Multi-Scale Context Fusion Network for Large-Size Remote Sensing Image Semantic Segmentation".
+This repo is the official implementation of "MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation".
