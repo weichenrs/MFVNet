@@ -24,11 +24,11 @@ This repo contains the supported code and models to reproduce the results of [MF
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | low (512) | UNet | 82.2 | 82.9 | 73.9 | 72.1 | 88.6 | 31.7 | 71.9 | 78.6 | 81.9 | - |
 | low (512) | HRNet | 83.0 | 81.3 | 72.7 | 72.5 | 90.0 | 36.2 | 72.6 | 79.2 | 82.7 | - |
-| low (512) | PSPNet | 84.0 | 80.5 | 74.7 | 73.4 | 90.5 | 36.9 | 73.3 | 80.2 | 83.2 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s1_psp.pth.tar)/[baidu]() |
+| low (512) | PSPNet | 84.0 | 80.5 | 74.7 | 73.4 | 90.5 | 36.9 | 73.3 | 80.2 | 83.2 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s1_psp.pth.tar)/[baidu](https://pan.baidu.com/s/1vIUHiVk17u9EO-rklGTjyw?pwd=e3ie) |
 | middle (768) | UNet | 82.3 | 81.5 | 72.6 | 71.2 | 88.6 | 33.1 | 71.6 | 78.3 | 81.8 | - |
 | middle (768) | HRNet | 81.4 | 81.0 | 68.6 | 69.6 | 88.6 | 35.1 | 70.7 | 77.5 | 81.0 | - |
-| middle (768) | PSPNet | 83.6 | 79.4 | 73.6 | 73.0 | 90.1 | 37.1 | 72.8 | 79.7 | 82.9 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s2_psp.pth.tar)/[baidu]() |
-| high (1024) | UNet | 80.9 | 80.5 | 71.5 | 69.5 | 88.3 | 31.4 | 70.4 | 77.2 | 80.9 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s3_u.pth.tar)/[baidu]() |
+| middle (768) | PSPNet | 83.6 | 79.4 | 73.6 | 73.0 | 90.1 | 37.1 | 72.8 | 79.7 | 82.9 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s2_psp.pth.tar)/[baidu](https://pan.baidu.com/s/1Q_bP8pDpPJAzB0CaWj4bpw?pwd=ch7a) |
+| high (1024) | UNet | 80.9 | 80.5 | 71.5 | 69.5 | 88.3 | 31.4 | 70.4 | 77.2 | 80.9 | [github](https://github.com/weichenrs/MFVNet/releases/download/models/potsdam_s3_u.pth.tar)/[baidu](https://pan.baidu.com/s/1AVfZq4_hB03XUlGw4dGHGw?pwd=dury) |
 | high (1024) | HRNet | 80.4 | 79.7 | 67.6 | 67.8 | 88.5 | 28.3 | 68.7 | 75.9 | 79.5 | - |
 | high (1024) | PSPNet | 79.6 | 72.4 | 68.1 | 68.1 | 88.2 | 30.1 | 67.7 | 75.6 | 79.1 | - |
 
