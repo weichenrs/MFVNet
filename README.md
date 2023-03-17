@@ -34,12 +34,19 @@ This repo contains the supported code and models to reproduce the results of [MF
 
 ## Usage
 
-### Installation
+### Installation (for cuda10)
 ```
 conda create -n mfvnet python=3.7
 conda activate mfvnet
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch
-(or) (conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch)
+conda install rasterio tqdm tensorboardX yacs matplotlib
+```
+
+### Installation (for cuda11)
+```
+conda create -n mfvnet python=3.7
+conda activate mfvnet
+conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 conda install rasterio tqdm tensorboardX yacs matplotlib
 ```
 
