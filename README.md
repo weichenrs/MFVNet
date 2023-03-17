@@ -53,13 +53,13 @@ conda install rasterio tqdm tensorboardX yacs matplotlib
 ### Downloading data
 
 We upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/drive/folders/1vRtZgEWY-3Uv1_iPDHoOurlKxtXs1EjP?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
-
+```
 cd PATH_TO_YOUR_WORKING_DIRECTORY
 git clone https://github.com/weichenrs/MFVNet
 cd MFVNet
 mkdir data
 unzip potsdam.zip
-
+```
 You can also download the source data from the offical website of [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx), [GID](https://x-ytong.github.io/project/GID.html), and [WFV](http://sendimage.whu.edu.cn/en/mfc-validation-data).
 
 **Notes:**
