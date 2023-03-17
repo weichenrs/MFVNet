@@ -6,7 +6,7 @@ This repo contains the supported code and models to reproduce the results of [MF
 
 ***03/17/2023*** Models on the [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx) dataset are released.
 
-***03/16/2023*** Initial commits
+***03/16/2023*** Initial commits.
 
 ## Results and Models for MFV
 
