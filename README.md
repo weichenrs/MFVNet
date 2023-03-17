@@ -54,7 +54,7 @@ conda install rasterio tqdm tensorboardX yacs matplotlib
 
 You can download the source data from the offical website of [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx), [GID](https://x-ytong.github.io/project/GID.html), and [WFV](http://sendimage.whu.edu.cn/en/mfc-validation-data).
 
-We also upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/file/d/14cKUxRrcDQqrKNVFVFBLXmXctTTEWg8Y/view?usp=sharing, https://drive.google.com/file/d/1RAwSA8w-6vVVFRrVdn2BDI9-No1IFiB2/view?usp=sharing, https://drive.google.com/file/d/1XlNHt6HBL5ZCpSU87BAhvvCCisPDDXnD/view?usp=sharing, https://drive.google.com/file/d/1adhQR0lcXo7OjmHRQjY4PjVGq9lf3PNo/view?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
+We also upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/drive/folders/1vRtZgEWY-3Uv1_iPDHoOurlKxtXs1EjP?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
 
 **Notes:**
 
