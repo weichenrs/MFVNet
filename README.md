@@ -5,7 +5,7 @@ This repo contains the supported code and models to reproduce the results of [MF
 <!-- ![](figures/mfvnet.jpg) -->
 <figure>
   <text-align: center;>
-  <img src="./mfvnet.jpg" alt="mfvnet" title="" width=1200" height="400" />
+  <img src="./mfvnet.jpg" alt="mfvnet" title="" width=900" height="300" />
 </figcaption>
 </figure>
 
