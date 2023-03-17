@@ -2,6 +2,13 @@
 
 This repo contains the supported code and models to reproduce the results of [MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3599-y).
 
+<!-- ![](figures/mfvnet.jpg) -->
+<figure>
+  <text-align: center;>
+  <img src="./mfvnet.jpg" alt="mfvnet" title="" width=1200" height="400" />
+</figcaption>
+</figure>
+
 ## Updates
 
 ***03/17/2023*** Models on the [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx) dataset are released.
