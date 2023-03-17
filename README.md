@@ -52,24 +52,38 @@ conda install rasterio tqdm tensorboardX yacs matplotlib
 
 ### Downloading data
 
-You can download the source data from the offical website of [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx), [GID](https://x-ytong.github.io/project/GID.html), and [WFV](http://sendimage.whu.edu.cn/en/mfc-validation-data).
+We upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/drive/folders/1vRtZgEWY-3Uv1_iPDHoOurlKxtXs1EjP?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
 
-We also upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/drive/folders/1vRtZgEWY-3Uv1_iPDHoOurlKxtXs1EjP?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
+cd PATH_TO_YOUR_WORKING_DIRECTORY
+git clone https://github.com/weichenrs/MFVNet
+cd MFVNet
+mkdir data
+unzip potsdam.zip
+
+You can also download the source data from the offical website of [Potsdam](https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx), [GID](https://x-ytong.github.io/project/GID.html), and [WFV](http://sendimage.whu.edu.cn/en/mfc-validation-data).
 
 **Notes:**
 
 - The data of [GID](https://x-ytong.github.io/project/GID.html) dataset and [WFV](http://sendimage.whu.edu.cn/en/mfc-validation-data) dataset are too large to upload, you need to download and process the source data yourself if you wanna use them for experiments.
 - If you wanna use your own dataset, you have to modify the files in the dataloader folder according to your needs.
 
-### Training and testing
+### MFV Training and testing
+
 ```
 cd PATH_TO_YOUR_WORKING_DIRECTORY
-git clone https://github.com/weichenrs/MFVNet
+cd MFVNet
+mkdir ssm_models
+# you need move the SSM models (your trained models or our pre-trained models) to the ssm_models folder. 
+cd ../mfv
+sh retrain_mfv.sh
+```
+
+### SSM Training and testing (search your own best models on each scale)
+```
+cd PATH_TO_YOUR_WORKING_DIRECTORY
 cd MFVNet
 cd ssm
 sh train_ssm.sh
-cd ../mfv
-sh retrain_mfv.sh
 ```
 
 ## Citing MFVNet
