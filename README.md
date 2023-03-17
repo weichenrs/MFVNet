@@ -79,6 +79,9 @@ sh retrain_mfv.sh
   title = {MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation},
   journal = {SCIENCE CHINA Information Sciences},
   year = {2022},
-  url = {http://www.sciengine.com/publisher/Science China Press/journal/SCIENCE CHINA Information Sciences///10.1007/s11432-022-3599-y}
+  url = {https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3599-y}
 }
 ```
+
+### Acknowledgement
+[pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception)
