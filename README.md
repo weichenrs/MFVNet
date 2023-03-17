@@ -40,6 +40,8 @@ conda create -n mfvnet python=3.7
 conda activate mfvnet
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=10.2 -c pytorch
 conda install rasterio tqdm tensorboardX yacs matplotlib
+cd PATH_TO_YOUR_WORKING_DIRECTORY
+git clone https://github.com/weichenrs/MFVNet
 ```
 
 ### Installation (for cuda11)
@@ -48,6 +50,8 @@ conda create -n mfvnet python=3.7
 conda activate mfvnet
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 conda install rasterio tqdm tensorboardX yacs matplotlib
+cd PATH_TO_YOUR_WORKING_DIRECTORY
+git clone https://github.com/weichenrs/MFVNet
 ```
 
 ### Downloading data
@@ -55,7 +59,6 @@ conda install rasterio tqdm tensorboardX yacs matplotlib
 We upload the processed data of Potsdam dataset, which can be downloaded via [google](https://drive.google.com/drive/folders/1vRtZgEWY-3Uv1_iPDHoOurlKxtXs1EjP?usp=sharing) or [baidu](https://pan.baidu.com/s/17kmd06zmn-Zvx5MOYLIdUA?pwd=cgc2).
 ```
 cd PATH_TO_YOUR_WORKING_DIRECTORY
-git clone https://github.com/weichenrs/MFVNet
 cd MFVNet
 mkdir data
 unzip potsdam.zip
