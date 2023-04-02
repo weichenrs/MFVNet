@@ -1,6 +1,6 @@
 # MFVNet
 
-This repo contains the supported code and models to reproduce the results of [MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3599-y).
+This repo contains the supported code and models to reproduce the results of [MFVNet: a deep adaptive fusion network with multiple field-of-views for remote sensing image semantic segmentation](https://link.springer.com/article/10.1007/s11432-022-3599-y).
 
 <!-- ![](figures/mfvnet.jpg) -->
 <figure>
@@ -100,10 +100,10 @@ sh train_ssm.sh
 ```
 @article{mfvnet,
   author = {Li Yansheng,Chen Wei,Huang Xin,Gao Zhi,Li Siwei,He Tao,Yongjun Zhang},
-  title = {MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation},
+  title = {MFVNet: a deep adaptive fusion network with multiple field-of-views for remote sensing image semantic segmentation},
   journal = {SCIENCE CHINA Information Sciences},
-  year = {2022},
-  url = {https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3599-y}
+  year = {2023},
+  url = {https://doi.org/10.1007/s11432-022-3599-y}
 }
 ```
 
