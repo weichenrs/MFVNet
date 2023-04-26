@@ -48,7 +48,7 @@ class potsdamSegmentation(data.Dataset):
     def __getitem__(self, index):
 
         img_path = self.files[self.split][index].rstrip()
-        lbl_path = img_path.replace('\image','\label').replace('.tif','_label.tif')
+        lbl_path = img_path.replace('image','label').replace('.tif','_label.tif')
         name = os.path.basename(img_path)
         with rasterio.open(img_path) as image:
             _img = image.read().astype(np.float32).transpose(1,2,0)
